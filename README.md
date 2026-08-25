@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/img/profile-header.svg?v=3" width="100%" alt="Ignacio Montero Gil">
+  <img src="docs/img/profile-header.svg?v=4" width="100%" alt="Ignacio Montero Gil">
 </p>
 
 # Ignacio Montero Gil
