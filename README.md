@@ -35,3 +35,12 @@ Python · LangGraph · scikit-learn · pandas · SQL / PostgreSQL · pgvector ·
 ## Contact
 
 Zaragoza, Spain · [LinkedIn](https://www.linkedin.com/in/ignacio-montero-gil)
+
+
+## Selected projects
+
+| | |
+|---|---|
+| **[catalan-spanish-kindle-dictionary](https://github.com/iggykimi/catalan-spanish-kindle-dictionary)** | Free Catalan→Spanish Kindle dictionary: 54.5k lemmas, ~1.1M inflected forms. Data pipeline merging FreeDict, Softcatalà and Apertium with automated format verification. GPL-3.0. |
+| **[energy-forecast-bench](https://github.com/iggykimi/energy-forecast-bench)** | Day-ahead forecasting of Spanish electricity demand: walk-forward backtest over 11 years of hourly data, no data leakage. LSTM beats LightGBM (−0.54 pp MAPE) and closes 44% of the gap to the official REE forecast. MIT. |
+| **[llm-judge-calibration-grid](https://github.com/iggykimi/llm-judge-calibration-grid)** | LLM-as-judge calibration study: 6 judge configurations vs human gold labels on financial QA. Finding: 96% agreement can coexist with zero error recall — accuracy alone doesn't measure judge quality. |
