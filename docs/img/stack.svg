@@ -1,0 +1,44 @@
+<svg width="760" height="150" viewBox="0 0 760 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stack técnico">
+  <style>
+    .chip { fill:#1d2023; stroke:#ffffff; stroke-opacity:.08; }
+    .t { font-family:'Segoe UI',Helvetica,Arial,sans-serif; font-size:15px; fill:#d8dce0; }
+  </style>
+
+  <!-- fila 1: ML / LLM -->
+  <rect x="0"   y="0" width="150" height="46" rx="23" class="chip"/>
+  <circle cx="26" cy="23" r="5" fill="#3776ab"/><text x="40" y="28" class="t">Python</text>
+
+  <rect x="162" y="0" width="128" height="46" rx="23" class="chip"/>
+  <circle cx="188" cy="23" r="5" fill="#ee4c2c"/><text x="202" y="28" class="t">PyTorch</text>
+
+  <rect x="302" y="0" width="140" height="46" rx="23" class="chip"/>
+  <circle cx="328" cy="23" r="5" fill="#22d3a7"/><text x="342" y="28" class="t">LangGraph</text>
+
+  <rect x="454" y="0" width="152" height="46" rx="23" class="chip"/>
+  <circle cx="480" cy="23" r="5" fill="#f89939"/><text x="494" y="28" class="t">scikit-learn</text>
+
+  <rect x="618" y="0" width="142" height="46" rx="23" class="chip"/>
+  <circle cx="644" cy="23" r="5" fill="#8bce3d"/><text x="658" y="28" class="t">LightGBM</text>
+
+  <!-- fila 2: datos / infra -->
+  <rect x="0"   y="60" width="150" height="46" rx="23" class="chip"/>
+  <circle cx="26" cy="83" r="5" fill="#336791"/><text x="40" y="88" class="t">PostgreSQL</text>
+
+  <rect x="162" y="60" width="104" height="46" rx="23" class="chip"/>
+  <circle cx="188" cy="83" r="5" fill="#2496ed"/><text x="202" y="88" class="t">Docker</text>
+
+  <rect x="278" y="60" width="70" height="46" rx="23" class="chip"/>
+  <circle cx="304" cy="83" r="5" fill="#276dc3"/><text x="318" y="88" class="t">R</text>
+
+  <rect x="360" y="60" width="80" height="46" rx="23" class="chip"/>
+  <circle cx="386" cy="83" r="5" fill="#f05033"/><text x="400" y="88" class="t">Git</text>
+
+  <rect x="452" y="60" width="90" height="46" rx="23" class="chip"/>
+  <circle cx="478" cy="83" r="5" fill="#4ede80"/><text x="492" y="88" class="t">Bash</text>
+
+  <rect x="554" y="60" width="206" height="46" rx="23" class="chip"/>
+  <circle cx="580" cy="83" r="5" fill="#e8b64c"/><text x="594" y="88" class="t">OCR + LLM pipelines</text>
+
+  <!-- caption -->
+  <text x="0" y="138" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b9197">stack con el que trabajo a diario — en producción, no en tutoriales</text>
+</svg>
