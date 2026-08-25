@@ -4,6 +4,9 @@ Data scientist and AI engineer working across the full applied-AI spectrum: from
 
 At [Integra Tecnología](https://www.integra3.com) I design, build and technically defend AI solutions for enterprise clients in banking, industry, healthcare, public sector and logistics — owning the work from scoping to deployment.
 
+
+<p align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,pytorch,sklearn,azure,docker,git,githubactions,bash&theme=dark" /></a></p>
+
 ## LLM systems
 
 - Multi-agent assistants and conversational systems (LangGraph) deployed in production environments
