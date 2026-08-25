@@ -1,0 +1,42 @@
+<svg width="1280" height="280" viewBox="0 0 1280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ignacio Montero Gil — AI engineer">
+  <defs>
+    <linearGradient id="skyP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121417"/>
+      <stop offset="1" stop-color="#101318"/>
+    </linearGradient>
+    <linearGradient id="waveA_P" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f8a70"/>
+      <stop offset=".5" stop-color="#22d3a7"/>
+      <stop offset="1" stop-color="#5b5bd6"/>
+    </linearGradient>
+    <linearGradient id="waveB_P" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14523f"/>
+      <stop offset=".55" stop-color="#1a6e85"/>
+      <stop offset="1" stop-color="#3d3a8f"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ef0cd"/>
+      <stop offset="1" stop-color="#9d8bff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="280" fill="url(#skyP)"/>
+
+  <!-- back wave -->
+  <path d="M0,196 C200,168 380,214 560,198 C760,180 940,146 1120,162 C1200,170 1250,182 1280,178 L1280,280 L0,280 Z"
+        fill="url(#waveB_P)" opacity=".5"/>
+
+  <!-- name -->
+  <text x="640" y="104" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="52" font-weight="700" letter-spacing="1.5" fill="#f2f4f6">Ignacio Montero Gil</text>
+
+  <!-- role -->
+  <text x="640" y="148" text-anchor="middle"
+        font-family="'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="20" letter-spacing="5" fill="url(#nameGrad)">AI ENGINEER · LLM SYSTEMS · EVALUATION</text>
+
+  <!-- front wave -->
+  <path d="M0,224 C170,204 340,234 520,222 C720,208 900,178 1080,192 C1170,199 1240,212 1280,209 L1280,280 L0,280 Z"
+        fill="url(#waveA_P)" opacity=".88"/>
+</svg>
