@@ -24,6 +24,7 @@ At [Integra Tecnología](https://www.integra3.com) I design, build and technical
 - Multi-agent assistants and conversational systems (LangGraph) deployed in production environments
 - Document intelligence: OCR + LLM extraction pipelines integrated with client systems
 - Natural-language querying over corporate databases
+- Local LLM serving: capacity planning under latency targets, quantisation and speculative decoding with vLLM and SGLang on an NVIDIA GB300
 - GenAI adoption training and mentoring for 30+ companies and public bodies
 
 ## Data science & ML
@@ -41,18 +42,19 @@ At [Integra Tecnología](https://www.integra3.com) I design, build and technical
 
 ## Now
 
-Building the public side of this work: evaluation harnesses for agents, retrieval benchmarks, and contributions to the agent tooling I use daily (OpenCode, oh-my-openagent, Hermes Agent).
-
-## Stack
-
-Python · LangGraph · scikit-learn · pandas · SQL / PostgreSQL · pgvector · FastAPI · Pydantic · Docker · Azure · pytest · Ruff
-
-## Contact
-
-Zaragoza, Spain · [LinkedIn](https://www.linkedin.com/in/ignacio-montero-gil)
+Building the public side of this work: [IggyBench](https://github.com/iggykimi/iggybench), a serving benchmark of open-weight LLMs on a GB300, evaluation harnesses for agents, retrieval benchmarks, and contributions to the agent tooling I use daily (OpenCode, oh-my-openagent, Hermes Agent).
 
 ## Selected projects
 
 | | |
 |---|---|
+| **[iggybench](https://github.com/iggykimi/iggybench)** | Seven open-weight LLMs and eleven specialist models served with vLLM on one NVIDIA GB300: capacity under P95 latency targets, quality on reasoning, function calling, invoices, e-mail and speech, energy per token and cost per million tokens. Harness, raw data and a technical report. |
 | **[catalan-spanish-kindle-dictionary](https://github.com/iggykimi/catalan-spanish-kindle-dictionary)** | Free Catalan→Spanish Kindle dictionary: 54.5k lemmas, ~1.1M inflected forms. Data pipeline merging FreeDict, Softcatalà and Apertium with automated format verification. GPL-3.0. |
+
+## Stack
+
+Python · LangGraph · vLLM · SGLang · scikit-learn · pandas · SQL / PostgreSQL · pgvector · FastAPI · Pydantic · Docker · Azure · pytest · Ruff
+
+## Contact
+
+Zaragoza, Spain · [LinkedIn](https://www.linkedin.com/in/ignacio-montero-gil)
