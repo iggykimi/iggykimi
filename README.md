@@ -6,7 +6,7 @@
 
 Data scientist and AI engineer. I work on everything from classic machine learning, computer vision and mathematical optimization to multi-agent LLM systems in production. Mathematician, BSc and MSc in Mathematical Modelling, Statistics and Computation (Universidad de Zaragoza).
 
-At [Integra Tecnología](https://www.integra3.com) I design, build and technically defend AI solutions for enterprise clients in banking, industry, healthcare, public sector and logistics, owning the work from scoping to deployment.
+At [Integra Tecnología](https://www.integra3.com) I design and build AI solutions for enterprise clients in banking, industry, healthcare, the public sector and logistics, present them to the clients' technical teams, and own the work from scoping to deployment.
 
 <p align="center">
   <a href="https://github.com/iggykimi?tab=repositories"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
