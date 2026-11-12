@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/header-dark.svg">
-  <img src="docs/img/header-light.svg" width="100%" alt="AI engineering · Data science · LLM systems">
+  <img src="docs/img/header-light.svg" width="100%" alt="AI engineering, data science and LLM systems">
 </picture>
 
 # Ignacio Montero Gil
@@ -15,10 +15,11 @@ Client code stays private. What is here are side projects and one benchmark I ra
 
 <table>
 <tr>
-<td width="42%"><a href="https://github.com/iggykimi/iggybench"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/iggybench-dark.png"><img src="docs/img/cards/iggybench-light.png" alt="Throughput against per-user speed for seven LLMs on one GPU"></picture></a></td>
+<td width="58%"><a href="https://github.com/iggykimi/iggybench"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/iggybench-dark.png"><img src="docs/img/cards/iggybench-light.png" alt="Throughput against per-user speed for seven LLMs on one GPU"></picture></a></td>
 <td>
 
-**[IggyBench](https://github.com/iggykimi/iggybench)** · Python, vLLM
+**[IggyBench](https://github.com/iggykimi/iggybench)**<br>
+<sub>Python, vLLM</sub>
 
 Seven open-weight LLMs and eleven specialist models on one NVIDIA GB300, over three days. How many chat users one machine serves under a P95 latency target, answer quality per use case with confidence intervals, energy per token and cost per million tokens. Every figure is recomputed from the raw data by scripts in the repo.
 
@@ -28,7 +29,8 @@ Seven open-weight LLMs and eleven specialist models on one NVIDIA GB300, over th
 <td><a href="https://github.com/iggykimi/Arknights-Base"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/arknights-dark.png"><img src="docs/img/cards/arknights-light.png" alt="One shift of the optimised base plan, room by room"></picture></a></td>
 <td>
 
-**[Arknights-Base](https://github.com/iggykimi/Arknights-Base)** · Python, SciPy MILP
+**[Arknights-Base](https://github.com/iggykimi/Arknights-Base)**<br>
+<sub>Python, SciPy MILP</sub>
 
 A planner for a game's base-building layer. It turns a player's roster into a production model and picks the two-shift staffing with mixed-integer linear programming. On my roster the plan makes 12% more per day than filling the rooms greedily. Each formula cites the spreadsheet cell it comes from and is tested against the game's own data.
 
@@ -38,7 +40,8 @@ A planner for a game's base-building layer. It turns a player's roster into a pr
 <td><a href="https://github.com/iggykimi/catalan-spanish-kindle-dictionary"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/dictionary-dark.png"><img src="docs/img/cards/dictionary-light.png" alt="A Kindle page in Catalan with the lookup of vaig resolved to anar (ir)"></picture></a></td>
 <td>
 
-**[Catalan → Spanish Kindle dictionary](https://github.com/iggykimi/catalan-spanish-kindle-dictionary)** · Python
+**[Catalan → Spanish Kindle dictionary](https://github.com/iggykimi/catalan-spanish-kindle-dictionary)**<br>
+<sub>Python</sub>
 
 A free dictionary for Kindle e-readers: 54.5k headwords and about 1.1M inflected forms, so conjugated verbs and apostrophe contractions resolve to the right entry. A pipeline merges FreeDict, Softcatalà and Apertium and checks the binary format after every build. Coverage is measured token by token on real books.
 
@@ -48,7 +51,8 @@ A free dictionary for Kindle e-readers: 54.5k headwords and about 1.1M inflected
 <td><a href="https://github.com/iggykimi/setrack-web"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/setrack-dark.png"><img src="docs/img/cards/setrack-light.png" alt="SetRack: logging a set and choosing the next exercise"></picture></a></td>
 <td>
 
-**[SetRack](https://github.com/iggykimi/setrack-web)** · TypeScript, React, Capacitor
+**[SetRack](https://github.com/iggykimi/setrack-web)**<br>
+<sub>TypeScript, React, Capacitor</sub>
 
 A gym log for Android, [published on Google Play](https://play.google.com/store/apps/details?id=com.setrack.app). Offline, no account and no internet permission: the data stays on the phone. 11 languages, about 450 automated tests, and layout checks that fail the build when a text overflows in any language. The app code is private; the landing site is public.
 
@@ -58,7 +62,8 @@ A gym log for Android, [published on Google Play](https://play.google.com/store/
 <td><a href="https://github.com/iggykimi/bidlab"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/bidlab-dark.png"><img src="docs/img/cards/bidlab-light.png" alt="BidLab pricing screen on a real Spanish tender"></picture></a></td>
 <td>
 
-**[BidLab](https://github.com/iggykimi/bidlab)** · Python, FastAPI, React
+**[BidLab](https://github.com/iggykimi/bidlab)**<br>
+<sub>Python, FastAPI, React</sub>
 
 A nine-day hackathon prototype. An LLM reads a Spanish public-tender PDF and proposes requirements with page citations, a person approves them, and a deterministic engine computes price, points and the abnormally-low-offer rule. The model never touches the arithmetic.
 
@@ -97,6 +102,6 @@ Small fixes in the agent tools I use daily, mostly documentation that had drifte
 
 ## Stack
 
-Python · pandas · scikit-learn · PyTorch · SciPy · LangGraph · vLLM · SGLang · FastAPI · Pydantic · PostgreSQL · pgvector · Docker · Azure · TypeScript · React · pytest · Playwright · Ruff
+Python, pandas, scikit-learn, PyTorch, SciPy, LangGraph, vLLM, SGLang, FastAPI, Pydantic, PostgreSQL, pgvector, Docker, Azure, TypeScript, React, pytest, Playwright, Ruff.
 
 [LinkedIn](https://www.linkedin.com/in/ignacio-montero-gil)
