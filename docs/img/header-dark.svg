@@ -1,0 +1,60 @@
+<svg width="1280" height="240" viewBox="0 0 1280 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI engineering · Data science · LLM systems">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#12161c"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f8a70"/>
+      <stop offset=".5" stop-color="#22d3a7"/>
+      <stop offset="1" stop-color="#5b5bd6"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14523f"/>
+      <stop offset=".55" stop-color="#1a6e85"/>
+      <stop offset="1" stop-color="#3d3a8f"/>
+    </linearGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ef0cd"/>
+      <stop offset="1" stop-color="#9d8bff"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1280" height="240" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="240" fill="url(#sky)"/>
+
+    <!-- node graph, left -->
+    <g stroke="#2e3a3a" stroke-width="1.2" opacity=".8">
+      <line x1="50" y1="56" x2="100" y2="92"/><line x1="100" y1="92" x2="66" y2="134"/>
+      <line x1="100" y1="92" x2="150" y2="64"/><line x1="150" y1="64" x2="182" y2="104"/>
+      <line x1="100" y1="92" x2="140" y2="140"/>
+    </g>
+    <g fill="#3ddbb0">
+      <circle cx="50" cy="56" r="4" opacity=".55"/><circle cx="150" cy="64" r="4" opacity=".55"/>
+      <circle cx="182" cy="104" r="3.5" opacity=".45"/><circle cx="140" cy="140" r="3.5" opacity=".45"/>
+    </g>
+    <circle cx="100" cy="92" r="6" fill="#22d3a7" opacity=".85"/>
+
+    <!-- node graph, right -->
+    <g stroke="#34304e" stroke-width="1.2" opacity=".8">
+      <line x1="1110" y1="70" x2="1170" y2="106"/><line x1="1170" y1="106" x2="1124" y2="146"/>
+      <line x1="1170" y1="106" x2="1226" y2="76"/><line x1="1124" y1="146" x2="1184" y2="160"/>
+    </g>
+    <g fill="#8f86e8">
+      <circle cx="1110" cy="70" r="4" opacity=".55"/><circle cx="1226" cy="76" r="4" opacity=".55"/>
+      <circle cx="1184" cy="160" r="3.5" opacity=".45"/><circle cx="1124" cy="146" r="3.5" opacity=".45"/>
+    </g>
+    <circle cx="1170" cy="106" r="6" fill="#9d8bff" opacity=".85"/>
+
+    <!-- tagline -->
+    <text x="640" y="114" text-anchor="middle"
+          font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="600" letter-spacing="5" fill="url(#tag)">AI ENGINEERING · DATA SCIENCE · LLM SYSTEMS</text>
+
+    <!-- waves -->
+    <path d="M0,168 C200,146 380,182 560,170 C760,156 940,128 1120,142 C1200,148 1250,158 1280,155 L1280,240 L0,240 Z"
+          fill="url(#waveB)" opacity=".5"/>
+    <path d="M0,192 C170,176 340,200 520,190 C720,178 900,154 1080,166 C1170,172 1240,182 1280,180 L1280,240 L0,240 Z"
+          fill="url(#waveA)" opacity=".88"/>
+  </g>
+</svg>

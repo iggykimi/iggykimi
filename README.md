@@ -1,12 +1,13 @@
-<p align="center">
-  <img src="docs/img/profile-header.svg?v=4" width="100%" alt="Ignacio Montero Gil">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/header-dark.svg">
+  <img src="docs/img/header-light.svg" width="100%" alt="AI engineering · Data science · LLM systems">
+</picture>
 
 # Ignacio Montero Gil
 
-Data scientist and AI engineer in Zaragoza, Spain. I build LLM systems, machine learning models and optimisation tools for companies, and I measure how well they work before they ship.
+AI engineer, data scientist and mathematician in Zaragoza, Spain. I build AI systems end to end and take them to production: LLM agents, machine learning models and the software around them. I measure how well they work before they ship.
 
-At [Integra Tecnología](https://www.integra3.com) I take client projects from scoping to deployment in banking, industry, healthcare, the public sector and logistics. Before that I automated financial-audit data at KPMG. I studied mathematics at the Universidad de Zaragoza (BSc, and an MSc in Mathematical Modelling, Statistics and Computation).
+Since April 2025 I work at [Integra Tecnología](https://www.integra3.com), where I own the architecture and most of the development of client projects in banking, industry, healthcare, the public sector and logistics. Before that, at KPMG (2024–2025), I automated financial-control processes for a bank with Python, SQL, PostgreSQL, R and Docker.
 
 Client code stays private. What is here are side projects and one benchmark I ran at work and was able to publish, each with its data, tests and limits written down.
 
@@ -14,7 +15,7 @@ Client code stays private. What is here are side projects and one benchmark I ra
 
 <table>
 <tr>
-<td width="42%"><a href="https://github.com/iggykimi/iggybench"><img src="docs/img/iggybench.png" alt="Throughput against per-user speed for seven LLMs on one GPU"></a></td>
+<td width="42%"><a href="https://github.com/iggykimi/iggybench"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/iggybench-dark.png"><img src="docs/img/cards/iggybench-light.png" alt="Throughput against per-user speed for seven LLMs on one GPU"></picture></a></td>
 <td>
 
 **[IggyBench](https://github.com/iggykimi/iggybench)** · Python, vLLM
@@ -24,17 +25,17 @@ Seven open-weight LLMs and eleven specialist models on one NVIDIA GB300, over th
 </td>
 </tr>
 <tr>
-<td><a href="https://github.com/iggykimi/Arknights-Base"><img src="docs/img/arknights.svg" alt="Daily output of the optimised plan against a greedy assignment"></a></td>
+<td><a href="https://github.com/iggykimi/Arknights-Base"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/arknights-dark.png"><img src="docs/img/cards/arknights-light.png" alt="One shift of the optimised base plan, room by room"></picture></a></td>
 <td>
 
 **[Arknights-Base](https://github.com/iggykimi/Arknights-Base)** · Python, SciPy MILP
 
-A planner for a game's base-building layer. It turns a player's roster into a production model and picks the two-shift staffing with mixed-integer linear programming. Each formula cites the spreadsheet cell it comes from and is tested against the game's own data.
+A planner for a game's base-building layer. It turns a player's roster into a production model and picks the two-shift staffing with mixed-integer linear programming. On my roster the plan makes 12% more per day than filling the rooms greedily. Each formula cites the spreadsheet cell it comes from and is tested against the game's own data.
 
 </td>
 </tr>
 <tr>
-<td><a href="https://github.com/iggykimi/catalan-spanish-kindle-dictionary"><img src="docs/img/kindle-coverage.svg" alt="Dictionary coverage measured on real books"></a></td>
+<td><a href="https://github.com/iggykimi/catalan-spanish-kindle-dictionary"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/dictionary-dark.png"><img src="docs/img/cards/dictionary-light.png" alt="A Kindle page in Catalan with the lookup of vaig resolved to anar (ir)"></picture></a></td>
 <td>
 
 **[Catalan → Spanish Kindle dictionary](https://github.com/iggykimi/catalan-spanish-kindle-dictionary)** · Python
@@ -44,7 +45,7 @@ A free dictionary for Kindle e-readers: 54.5k headwords and about 1.1M inflected
 </td>
 </tr>
 <tr>
-<td><a href="https://github.com/iggykimi/setrack-web"><img src="docs/img/setrack.jpg" alt="SetRack: logging a set and choosing the next exercise"></a></td>
+<td><a href="https://github.com/iggykimi/setrack-web"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/setrack-dark.png"><img src="docs/img/cards/setrack-light.png" alt="SetRack: logging a set and choosing the next exercise"></picture></a></td>
 <td>
 
 **[SetRack](https://github.com/iggykimi/setrack-web)** · TypeScript, React, Capacitor
@@ -54,7 +55,7 @@ A gym log for Android, [published on Google Play](https://play.google.com/store/
 </td>
 </tr>
 <tr>
-<td><a href="https://github.com/iggykimi/bidlab"><img src="docs/img/bidlab.jpg" alt="BidLab pricing screen on a real Spanish tender"></a></td>
+<td><a href="https://github.com/iggykimi/bidlab"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/img/cards/bidlab-dark.png"><img src="docs/img/cards/bidlab-light.png" alt="BidLab pricing screen on a real Spanish tender"></picture></a></td>
 <td>
 
 **[BidLab](https://github.com/iggykimi/bidlab)** · Python, FastAPI, React
@@ -73,13 +74,22 @@ The agent writes, and I decide what to build, set the checks and read the result
 
 ## At work
 
-- Multi-agent assistants and conversational systems with LangGraph, running in production for clients
-- Document pipelines: OCR plus LLM extraction, integrated with the client's systems
-- Natural-language querying over corporate databases
-- Predictive models, computer vision and operational optimisation for client problems
-- GenAI training for more than 30 companies and public bodies, including LLM agents and Microsoft Copilot adoption
+- Agent systems and workflows with RAG, tool calling and MCP over the client's tools, APIs and data
+- Conversational assistants and text-to-SQL over corporate databases
+- Document AI: OCR and vision, LLM extraction, validation and integration with the client's systems
+- Taking AI apps to production: FastAPI, tests and evals, observability, Docker, CI/CD, cloud deployment
+- Machine learning models and mathematical optimisation for business problems
+- Discovery, architecture and proofs of concept with clients
+- Workshops and training on generative AI and agents for more than 30 companies and public bodies
 
-2nd prize at the HACK THE VIBE hackathon, with automatic requirement extraction and eligibility checking over Spanish public tenders. MSc thesis on LLM techniques for predicting the market impact of financial news.
+2nd prize at the HACK THE VIBE hackathon, with automatic requirement extraction and eligibility checking over Spanish public tenders.
+
+## Education and certifications
+
+- MSc in Mathematics and Computer Science, Universidad de Zaragoza (2023). Thesis: NLP on financial markets, using BERT and sentiment analysis to study the impact of financial news.
+- BSc in Mathematics, Universidad de Zaragoza (2022). Thesis on the Riemann zeta function.
+- Microsoft Certified: AI Agent Builder Associate (2026).
+- English C1, Oxford Test of English Advanced, 163/170 (2026). Native Spanish; professional French.
 
 ## Open source
 
