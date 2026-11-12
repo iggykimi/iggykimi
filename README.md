@@ -7,7 +7,7 @@
 
 AI engineer, data scientist and mathematician in Zaragoza, Spain. I build AI systems end to end and take them to production: LLM agents, machine learning models and the software around them. I measure how well they work before they ship.
 
-Since April 2025 I work at [Integra Tecnología](https://www.integra3.com), where I own the architecture and most of the development of client projects in banking, industry, healthcare, the public sector and logistics. Before that, at KPMG (2024–2025), I automated financial-control processes for a bank with Python, SQL, PostgreSQL, R and Docker.
+Since 2025 I work in a technology consultancy, where I own the architecture and most of the development of client projects in banking, industry, healthcare, the public sector and logistics. Before that I automated financial-control processes for a bank with Python, SQL, PostgreSQL, R and Docker.
 
 Client code stays private. What is here are side projects and one benchmark I ran at work and was able to publish, each with its data, tests and limits written down.
 
